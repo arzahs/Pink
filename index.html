@@ -10,21 +10,40 @@
 
 
 <body>
+  
   <header class="main-header">
-    <div class="main-header__logo-wrap">
-  	  <a href="#"><img src="img/Pink-logo-1.png" alt="pink"></a>
-    </div>
-    <div class="main-header__navigation-wrap">
-  		<nav class="main-nav">
-  			<ul class="main-nav__list">
-  				<li class="main-nav__active-item"> <a href="">Информация</a></li>
-  				<li><a href="">Возможности</a></li>
-  				<li> <a href="">Отзывы</a></li>
-  				<li><a href="">Стоимость</a></li>
-  			</ul>
-  		</nav>	
-    </div>
-    <div class="main-header__text">
+    
+    <nav class="main-nav">
+		  <div class="main-nav__menu-header">
+		  	<a href="index.html" class="menu-nav__title"></a>
+		  </div>
+		  <span class="menu-nav__button">Menu</span>
+		   <ul class="main-nav__list">
+        <li class="main-nav__item"><a class="main-nav__link" href="#info">Информация</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#features">Возможности</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#reviews">Отзывы</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="#price">Стоимость</a></li>
+      </ul>
+    </nav>
+    
+    <section class="promo">
+    	 
+    	 <div class="promo-header">
+    	 	  <p class="promo-header__slogan">Взгляни на жизнь иначе!</p>
+    	 </div>
+			 
+			 <div class="promo-downloads">
+			 	 <a href="#" class="promo-download__link">Скачать приложение</a>
+         <div class="promo-download__buttons">
+         		<a href="#" class="promo-download__button promo-download__button--apple">Apple</a>
+         		<a href="#" class="promo-download__button promo-download__button--android">Android</a>
+         		<a href="#" class="promo-download__button promo-download__button--windows">Windows</a>
+         </div>
+			   <p class="promo-downloads__description">Доступно для Iphone, Ipad, Android, Windows Phone, Mac OS, Windows 8</p>
+			 </div>
+
+    </section>
+    <!---<div class="main-header__text">
       <div class="main-header__inner">
       	
       	<div class="main-header__wrapper">
@@ -43,9 +62,11 @@
       	
       	</div>
       </div>
-    </div>
+    </div>-->
+ 
   </header>
-  <div class="content">
+  
+  <main class="content">
  	   
  	   <section class="promo-slogan">
  	   	<h2>Устали от серости мегаполиса?</h2>
@@ -133,7 +154,7 @@
 		 		</div>
 		 </section>
 
-  </div>
+  </main>
   <footer class="main-footer">
   	
   	<div class="main-footer__inner">
