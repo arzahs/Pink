@@ -1,7 +1,50 @@
-body {
+.main-header {
+  display: flex;
+}
+@media (min-width: 660px) {
+  .main-header {
+    flex-direction: row;
+  }
+}
+.main-nav {
+  display: flex;
+  width: 100%;
+}
+@media (min-width: 320px) {
+  .main-nav {
+    flex-direction: column;
+  }
+}
+@media (min-width: 980px) {
+  .main-nav {
+    flex-direction: row;
+  }
+  .main-nav__button {
+    display: none;
+  }
+}
+.promo {
+  display: flex;
+}
+.promo-download__link {
+  padding: 20px 0;
+  text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
-  color: #283645;
-  background: white;
+  line-height: 1;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  text-decoration: none;
+  padding: 13px 25px;
+  border: 2px solid white;
+  color: white;
+  margin: 1px;
+  border-radius: 30px;
+  background-color: none;
+  font-weight: 700;
+}
+.promo-download__link:hover {
+  color: #d22856;
+  background-color: white;
 }

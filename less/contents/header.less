@@ -1,0 +1,69 @@
+.main-header{
+	display: flex;
+	@media (min-width: @screen_md){
+		flex-direction: row;
+	}
+
+}
+
+.main-nav{
+	
+	display: flex;
+	width: 100%;
+	@media (min-width: @screen_sm){
+		flex-direction: column;
+	}
+	@media (min-width: @screen_lg){
+		flex-direction: row;
+		&__button{
+			display: none;
+	  }
+
+	}
+	&__menu-header{
+
+	}
+	
+  &__title{
+
+  }
+	
+	&__button{
+
+	}
+
+	&__list{
+		
+	}
+
+	&__item{
+
+	}
+
+	&__link{
+
+	}
+
+}
+
+.promo{
+	display: flex;
+	&-header{
+
+	}
+	&-download__link{
+		.mixin-btn();
+		padding: 13px 25px;
+		border: 2px solid white;
+		color: white;
+		margin: 1px;
+		border-radius: 30px;
+		background-color: none;
+		font-weight: 700;
+	}
+	&-download__link:hover{
+		color: @pink;
+		background-color: white;
+		
+	}
+}
